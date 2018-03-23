@@ -1,0 +1,148 @@
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
+  }
+}
+
+@media print,
+screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
+    font-size: 10px;
+  }
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.sticky-container {
+  z-index: 5;
+}
+.txtLeft {
+  text-align: left;
+  color: blue;
+}
+#main-nav {
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* this 'a' tag needs to be added into a class for the white space behind the a tags in the footer to go away. */
+a {
+  background-color: White;
+}
+
+h1 {
+  font-style: bold;
+}
+
+h5 {
+  text-align: center;
+}
+
+.thumbnail {
+  margin-bottom: 2px;
+}
+
+.top-bar {
+  background-color: white;
+}
+
+/* css added for swim level page */
+
+/* top layer */
+
+.level-row {
+  /* border-bottom: 1px solid gray; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* this margin below was taken off because of how it affects the lines on the swim levels page JA and replaced with a padding */
+  /* margin: 20px; */
+}
+
+.imageBox {
+  margin: 10px;
+}
+
+/* footer */
+
+.footer-image {
+  background-image: url("../images/wave-banner-long.jpg");
+  height: 90px;
+  width: auto;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* .nav-bar-style {
+  background-color: rgba(172, 216, 226, .5)
+} */
+
+.style-header {
+  color: rgb(223, 243, 243);
+  background-color: rgb(25, 118, 210);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 15px;
+}
+
+#main-nav {
+  border-bottom: 1px solid gray;
+}
+
+.odd-level {
+  background-color: rgb(199, 220, 247);
+}
+
+.end-prompt {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-box-sizing {
+  padding: 20px;
+}
+
+#mapSection{
+  align-content: space-around;
+  height:75vh;
+  width:100%;
+  /* padding: 5%; */
+  position:inherit;
+}
+
+/* This is causing a problem with the links on the buttons on the contact page and on the Home page */
+/* a:link {
+color:blue;
+} */
+
+a:hover {
+  text-decoration:underline;
+}
+
+.contact {
+  padding-top: 20px;
+}
+
+/* footer with info edits */
+.link-pic {
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.register-link {
+  background-color: rgb(25, 118, 210);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
