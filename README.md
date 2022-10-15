@@ -1,2 +1,2 @@
 # JSJSwim
-Project1
+JSJSwim website to view swim locations in your area
